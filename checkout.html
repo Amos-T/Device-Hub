@@ -4,8 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous"/>
 </head>
 <body>
-    
+    <nav>
+        <div class="navbar-top">
+            <div>
+                <button id="menuButton"><i class="fas fa-bars"></i></button>
+                <!--Logo-->
+                <a href="index.html">
+                    <h2 class="logo">Device Hub</h2>
+                </a>
+            </div>
+            <div>
+                <!--My account part-->
+                <div class="account">
+                    <a href="sign-up.html">
+                        <button class="account-btn">
+                            <i class="fas fa-user-alt"></i>
+                        </button>
+                        <span class="account-text">My account</span>
+                    </a>
+                    
+                </div>
+                <!--Shopping cart-->
+                <div class="shopping-cart">
+                    <div class="sum-prices">
+                        <!--Shopping cart logo-->
+                        <i
+                            class="fas fa-shopping-cart shoppingCartButton"
+                        ></i>
+                        <!--The total prices of products in the shopping cart -->
+                        <h6 id="sum-prices"></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+            </div>
+        </div>
+        <div class="producstOnCart hide">
+            <div class="overlay"></div>
+            <div class="top">
+                <button id="closeButton">
+                    <i class="fas fa-times-circle"></i>
+                </button>
+                <h3>Cart</h3>
+            </div>
+            <ul id="buyItems">
+                <h4 class="empty">Your shopping cart is empty</h4>
+                <!-- <li class="buyItem">
+                    <img src="Images/producs-images/Mobiles/galaxynote10.png">
+                    <div>
+                        <h5>Products Name</h5>
+                        <h6>$199</h6>
+                        <div>
+                            <button>-</button>
+                            <span class="countOfProduct">1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </li> -->
+            </ul>
+            <a href="checkout.html"><button class="btn checkout hidden">Check out</button></a>
+        </div>
+    </nav>
+    <h2 style="text-align: center; color: black;">Cart</h2>
+
+    <div class="main">
+    <div class="page-title">Review your order</div>
 </body>
 </html>

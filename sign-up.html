@@ -25,7 +25,7 @@
             <div>
                 <!--My account part-->
                 <div class="account">
-                    <a href="signin.html">
+                    <a href="sign-up.html">
                         <button class="account-btn">
                             <i class="fas fa-user-alt"></i>
                         </button>
@@ -46,5 +46,26 @@
                 </div>
             </div>
         </div>
+    <h1>Sign Up</h1>
+    <p>Please Fill in this form to Sign into this website</p>
+    <form action="./signup.php" method="post">
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+        <input type="number" name="phoneNumber" placeholder="Phone Number">
+        <input type="text" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+        <input type="password" name="confirm_password" placeholder="Confirm Password">
+        <a href="index.html"><input type="submit" value="Sign Up"></a>
+    </form>
+    <br>
+    <p>OR</p>
+    <br>
+    <h1>LOG IN</h1>
+    <form action="">
+        <input type="text" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+        <input type="password" name="confirm_password" placeholder="Confirm Password">
+        <a href="index.html"><input type="submit" value="Log in"></a>
+    </form>
 </body>
 </html>
