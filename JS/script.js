@@ -1,3 +1,4 @@
+
 const responsiveNavbar = (function () {
 	const button = document.querySelector("#menuButton");
 	const navbar = document.querySelector("#navbar")
